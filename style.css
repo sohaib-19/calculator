@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(49, 46, 46);
+    margin: 0 0 0 0;
+}
+.heading{
+    width: 1280px;
+    height: 100px;
+    background-color: chocolate;
+    text-align: center;
+    margin-top: 0;
+}
+.simple{
+    padding-top: 2%;
+}
+.para{
+    text-align: right;
+    font-weight: bolder;
+}
+.inputText{
+    width: 98%;
+    height: 50px;
+    margin-top: 2px;
+    font-size: x-large;
+    background-color: black;
+    color:  rgb(0, 204, 255);
+}
+.orange{
+    color: orange;
+    background-color: rgba(63, 55, 55, 0.795);
+    width: 81px;
+    height: 35px;
+    margin: 2px 3px 2px 3px;
+}
+.orange:hover{
+    background-color: black;
+}
+.seablue{
+    color: rgb(0, 204, 255) !important; 
+    font-size: large;
+    font-weight: normal !important;
+}
+.seablue:hover{
+    background-color: gainsboro !important;
+    color: black !important;
+}
+.main{
+    width: 360px;
+    height: 290px;
+    margin: 0 auto;
+    margin-top: 13%;
+    border: 2px solid rgba(59, 59, 80, 0.986);
+
+}
+.btns{
+    width: 81px;
+    height: 45px;
+    margin: 2px 3px 2px 3px;
+    font-weight: bold;
+    font-size: large;
+    background-color: black;
+    color: cornsilk;
+    
+}
+.btns:hover{
+    background-color: gray;
+}
+.equals{
+    width: 80px;
+    height: 45px;
+    margin: 2px 3px 2px 3px;
+    background-color: rgb(132, 255, 8);
+}
+.equals:hover{
+    background-color: gainsboro !important;
+    color: black !important;
+}

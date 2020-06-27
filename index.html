@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 class="simple">SIMPLE CALCULATOR</h1>
+        <p class="para">By Syed Sohaib Ahmed</p>
+    </div>
+
+    <div class="main">
+        <div>
+        <input id="result" type="text" class="inputText">
+        </div>
+        <div>
+            <button class="orange"><i class="fa fa-cog" aria-hidden="true"></i></button>
+            <button class="orange">Tool Box</button>
+            <button class="orange" onclick="clearInput()">C</button>
+            <button class="orange" onclick="back()" ><i class="fa fa-window-close-o" aria-hidden="true"></i></button>
+        </div>
+        <div>
+            <button class="btns" onclick="getNumber('7')">7</button>
+            <button class="btns" onclick="getNumber('8')">8</button>
+            <button class="btns" onclick="getNumber('9')">9</button>
+            <button class="btns seablue" onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button class="btns" onclick="getNumber('4')">4</button>
+            <button class="btns" onclick="getNumber('5')">5</button>
+            <button class="btns" onclick="getNumber('6')">6</button>
+            <button class="btns seablue" onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button class="btns" onclick="getNumber('1')">1</button>
+            <button class="btns" onclick="getNumber('2')">2</button>
+            <button class="btns" onclick="getNumber('3')">3</button>
+            <button class="btns seablue" onclick="getNumber('*')">x</button>
+        </div>
+        <div>
+            <button class="btns" onclick="getNumber('0')">0</button>
+            <button class="btns" onclick="getNumber('.')">.</button>
+            <button class="btns seablue" onclick="getNumber('/')">/</button>
+            <button class="equals" onclick="getAnswer()">=</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
